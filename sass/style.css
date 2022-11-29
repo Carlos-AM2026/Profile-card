@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-image: url(../assets/bg-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-container {
+  height: 40%;
+  width: 20%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-content {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(248, 248, 248, 0.9725490196);
+  border-radius: 5%;
+  box-shadow: 2px 2px 50px rgba(248, 248, 248, 0.9725490196);
+}
+
+.upper-container {
+  height: 40%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8% 8% 0% 0%;
+  border-bottom: 2px solid rgba(248, 248, 248, 0.9725490196);
+}
+
+.image {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image img {
+  border-radius: 50%;
+  border: 2px solid rgba(248, 248, 248, 0.9725490196);
+}
+
+.data {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.data span {
+  color: rgba(179, 176, 176, 0.9725490196);
+}
+.data .city {
+  font-size: 14px;
+}
+
+.stadistics {
+  height: 15%;
+  width: 100%;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.stadistics p {
+  font-weight: 700;
+  font-size: 18px;
+}
+.stadistics .stadistic {
+  font-weight: 100;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.attribution {
+  height: 20%;
+  width: 100%;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(248, 248, 248, 0.9725490196);
+  text-align: center;
+}
+.attribution a {
+  color: rgba(248, 248, 248, 0.9725490196);
+}
+.attribution a:hover {
+  color: #6464fa;
+}
+
+@media (max-width: 380px) {
+  .card-container {
+    height: 60%;
+    width: 80%;
+  }
+}/*# sourceMappingURL=style.css.map */
